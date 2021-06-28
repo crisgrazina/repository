@@ -1,0 +1,529 @@
+*
+
+{
+    padding: 0;
+    margin: 0;
+}
+
+hr.white {
+    border-top: 0.5px border rgba(255, 255, 255, 0.664);
+    width: 70%;
+    margin: auto;
+    
+}
+
+.h1_titulo {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+}
+
+.h3blue {
+    color: rgb(18, 124, 211);
+}
+
+.texto_slider {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 150%;
+    width: 70%;
+}
+
+.yellow {
+    color: rgb(255, 217, 0);
+}
+
+.quote_font {
+    font-size: 30px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: right;
+}
+
+.texto_quote {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+
+.texto_quote_ {
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 15px;
+    
+    
+}
+
+.text_depoimento_assinatura {
+
+color: rgb(18, 124, 211);
+font-weight: 600;
+font-style: italic;
+padding-top: 15px;
+text-align: right;
+}
+
+.text_depoimento_assinatura_ {
+
+    color: rgba(81, 87, 92, 0.671);
+    font-style: italic;
+    text-align: right;
+    }
+
+.especialidades {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+body {
+    background: rgb(225, 225, 228);
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider {
+    background-image: linear-gradient(to right, rgb(18, 124, 211) , rgb(184, 18, 235));
+    width: 100%px;
+    height: 600px;
+}
+
+.menusuperior { 
+    height: 80px;
+    padding-top: 20px;
+}
+
+.menuconteudo {
+    width: 70%;
+    margin: auto;
+    height: 80px;
+    
+}
+
+.logo {
+    float: left;
+    width: 40%;
+}
+
+.logopar {
+    padding-top: 14px;
+    height: 50px;
+}
+
+.menulinks {
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+.itemMenu {
+    float: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.itemMenu:hover {
+    color: rgb(255, 217, 0);
+    font-weight: bold;   
+}
+
+.slide_conteudo {
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    
+}
+
+.container_section {
+    width: 70%;
+    height: 150px;
+    position: relative;
+    border: 3px solid green;
+    
+}
+
+.conteudo_slide_left {
+    width: 50%;
+    height: 70%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    
+}
+
+.conteudo_slide_right {
+    width: 47%;
+    background-image: url(./imgs/fotoslider.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    
+}
+
+.fotoslider_par {
+    height: 100%;
+    width: 50%;
+}
+
+.secoes_site { 
+    width: 70%;
+    height: 100%px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.div_half { 
+    width: 40%;
+    transform: translateY(50px);
+      
+}
+
+.div_half_toppadding {
+    width: 50%;
+    top: 50%;
+    -ms-transform: translateY(60%); 
+    transform: translateY(40%);
+}
+
+.container { 
+    height: 150px;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%);
+}
+
+.container_70pc {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;    
+}
+
+.container_70pc_ {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.background_branco {
+    background-color: white;
+    height: 600px;
+}
+
+.fotodoutora {
+    width: 85%;
+}
+
+.tratamentos {
+    background: #4689c3;
+    height: 430px;
+    display: flex;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-right: 20px;  
+    transition: 0.3s;
+    align-content: center;
+    box-shadow: 3px 3px 15px rgb(0, 217, 255);
+}
+
+.box:hover {
+    background: #8cece8;   
+}
+
+.box_conteudo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.ajuste {
+    padding-top: 30px;
+}
+
+.text_box {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 5px;
+    line-height: 90%;
+    color: rgb(14, 63, 112);
+    cursor: pointer;
+}
+
+button {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 2px; 
+    cursor: pointer; 
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+    color: rgb(2, 2, 2);
+    font-weight:unset;
+}
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+.btn-grad {
+   
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgb(0, 0, 0);            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .container_especialidades {
+     display: flex;
+     margin: auto;
+     padding-top: 15px;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+ }
+
+ .diferenciais {
+     
+     background: white;
+     padding-bottom: 80px;
+ }
+
+ .main {
+     width: 70%;
+     display: flex;
+     margin: auto;
+     flex-wrap: wrap;
+     padding-top: 60px;
+ }
+
+ .main_footer {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+ .texto_diferenciais {
+     color: rgb(36, 36, 36);
+     width: 65%;
+     background: rgba(128, 128, 128, 0);
+     font-size: 25px;
+     display: flex;
+     align-items: center;
+     
+     
+ }
+
+ .foto_diferenciais  {
+    width: 100%;
+    max-width: 336px;
+    background-image:url(./imgs/fotodiferencial.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 444px;
+
+ }
+
+ .text_nossosdiferenciais {
+     color: rgb(36, 33, 68);
+     font-weight: 900;
+     font-size: 40px;
+     font-family: 'Archivo Black', sans-serif;
+ }
+
+ .far {
+     color: rgb(23, 105, 228);
+     float: left;
+     font-size: 30px;
+     margin-right: 10px;
+ }
+
+ .ajuste_texto_diferencial {
+     width: 80%;
+ }
+
+ .row_line {
+     padding: 10px;
+ }
+ 
+ footer {
+     height: 500px;
+     background: rgb(29, 29, 29);
+ }
+
+ .footer_sec { 
+     width: 20%;
+     margin: 20px;    
+ }
+
+ .titulo_footer {
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+ }
+
+ .text_footer {
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+ }
+
+ .text_footer:hover {
+    color: rgb(212, 212, 212)
+ }
+
+ .text_footer_center {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .fab {
+     color: white;
+     font-size: 25px;
+ }
+
+ .fas {
+     color: white;
+     font-size: 25px;
+ }
+
+ .image_footer img {
+    width: 30%
+ }
+
+ @media only screen and (max-width: 1400px) {
+     .conteudo_slide_right {
+         width: 66%;
+     }
+
+     .background_branco {
+         height: 460px;
+     }
+
+     .main {
+         width: 72%;
+     }
+ }
+
+ @media only screen and (max-width: 360px) {
+    .slider {
+        height: 764px;
+    }
+
+    .menulinks {
+        display: none; 
+    }
+
+    .quote_font {
+        font-size: 19px;
+    }
+
+    .texto_quote {
+        font-size: 11px;
+    }
+
+    .div_half {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div_half_toppadding {
+        width: 100%;
+        transform: translateY(27%);
+    }
+
+    .secoes_site {
+        display: block;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .background_branco {
+        height: 743px;
+    }
+
+    .container_70pc_ {
+        width: 96%;
+    }
+
+    .tratamentos {
+        height: 1060px;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+
+    .ajuste_texto_diferencial {
+        width: 200%; 
+    }
+
+    .foto_diferenciais {
+        margin-top: 25px; 
+    }
+
+    .main_footer {
+        display: contents;
+    }
+
+    .footer_sec {
+        width: 93%;
+    }
+
+    footer {
+        height: 750px;
+        padding: 20px;
+        
+    }
+}
