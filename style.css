@@ -964,6 +964,36 @@ input[type=Submit]:hover {
      }
  }
 
+ @media only screen and (max-width: 1300px) {
+    .container_header {
+        margin: 0 5%;
+    }
+
+    .diferenciais {
+        padding: 100px 5%;
+    }
+
+    .agendamento {
+        padding: 100px 5%;
+    }
+
+    .container_ag {
+        width: 100%;
+    }
+
+    .localizacao {
+        padding: 150px 5%;
+    }
+
+    .container_map {
+        width: 100%;
+    }
+
+}
+
+
+
+
  @media only screen and (max-width: 450px) {
     
     .container_diferenciais {
