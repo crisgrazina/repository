@@ -1064,6 +1064,7 @@ input[type=Submit]:hover {
 
     footer {
         height: unset;
+        display: none;
     }
 
     .main_footer {
